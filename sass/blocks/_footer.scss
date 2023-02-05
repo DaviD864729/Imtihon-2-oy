@@ -12,7 +12,7 @@
         justify-content: space-between;
         align-items: flex-start;
 
-        .line{
+        .line {
             display: none;
             width: 327px;
             height: 1px;
@@ -37,6 +37,10 @@
                 line-height: 14px;
                 letter-spacing: 2px;
                 color: #FFFFFF;
+
+                &:hover {
+                    text-decoration: underline
+                }
 
             }
         }
@@ -65,7 +69,7 @@
 
             &--card--ul--li {
                 width: 350px;
-                
+
 
                 &--link {
                     font-family: 'Jost';
@@ -77,12 +81,12 @@
                     mix-blend-mode: normal;
                     opacity: 0.5;
                 }
-            
-            
+
+
             }
 
-            
-        
+
+
 
         }
 
@@ -94,23 +98,24 @@
                 margin-top: 50px;
                 gap: 16px;
                 margin-bottom: 72px;
-                &--li{
 
-                    &--link{
-                        
-                       &--img{
-                        &:hover{
-                            border-radius: 50%;
+                &--li {
 
-                            background: #FFAD9B;
+                    &--link {
+
+                        &--img {
+                            &:hover {
+                                border-radius: 50%;
+
+                                background: #FFAD9B;
+                            }
                         }
-                       }
-                       
-                       
+
+
                     }
                 }
             }
-        
+
         }
 
 
@@ -122,7 +127,7 @@
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
 
 
@@ -135,13 +140,13 @@
         height: 443px;
         background: #1D1C1E;
         padding-top: 144px;
-    
+
         &--box-top {
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-            .line{
+            .line {
                 display: none;
                 width: 327px;
                 height: 1px;
@@ -150,14 +155,14 @@
                 opacity: 0.1;
                 margin-top: 36px;
             }
-    
+
             &--ul {
                 display: flex;
-                
+
                 justify-content: space-between;
                 width: 60%;
-    
-    
+
+
                 &--li--link {
                     font-family: 'Jost';
                     font-style: normal;
@@ -166,11 +171,15 @@
                     line-height: 14px;
                     letter-spacing: 2px;
                     color: #FFFFFF;
-    
+
+                    &:hover {
+                        text-decoration: underline
+                    }
+
                 }
             }
         }
-    
+
         &--horizon-line {
             width: 690px;
             height: 1px;
@@ -178,31 +187,31 @@
             border: 1px solid #fff;
             opacity: 0.1;
             margin-top: 36px;
-    
-    
-    
+
+
+
         }
-    
+
         &--box-bottom {
             margin-top: 31px;
             display: flex;
             justify-content: space-between;
-    
+
             &--left {
                 display: flex;
 
-                .footer--box-bottom--left--card--ul{
+                .footer--box-bottom--left--card--ul {
                     padding: 0;
                     margin-top: 31px;
                     margin-bottom: 80px;
                 }
-    
-    
+
+
                 &--card--ul--li {
                     width: 223px;
-                    
-                    
-    
+
+
+
                     &--link {
                         font-family: 'Jost';
                         font-style: normal;
@@ -213,48 +222,48 @@
                         mix-blend-mode: normal;
                         opacity: 0.5;
                     }
-                
-                
+
+
                 }
-    
-                
-            
-    
+
+
+
+
             }
-    
-    
+
+
             &--right {
-    
+
                 &--ul {
                     display: flex;
                     margin-top: 85px;
-                    
+
                     margin-bottom: 72px;
-                    
-                    &--li{
-    
-                        &--link{
-                            
-                           &--img{
-                            &:hover{
-                                border-radius: 50%;
-    
-                                background: #FFAD9B;
+
+                    &--li {
+
+                        &--link {
+
+                            &--img {
+                                &:hover {
+                                    border-radius: 50%;
+
+                                    background: #FFAD9B;
+                                }
                             }
-                           }
-                           
-                           
+
+
                         }
                     }
                 }
-            
+
             }
-    
-    
+
+
         }
-    
+
     }
-    
+
 
 
 
@@ -269,7 +278,7 @@
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
 
 
 
@@ -282,7 +291,7 @@
         height: 815px;
         background: #1D1C1E;
         padding-top: 144px;
-    
+
         &--box-top {
             margin-top: 150px;
             display: flex;
@@ -290,7 +299,7 @@
             justify-content: center;
             align-items: center;
 
-            .line{
+            .line {
                 display: inline-block;
                 width: 327px;
                 height: 1px;
@@ -299,14 +308,14 @@
                 opacity: 0.1;
                 margin-top: 36px;
             }
-    
+
             &--ul {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 width: 60%;
-    
-    
+
+
                 &--li--link {
                     font-family: 'Jost';
                     font-style: normal;
@@ -315,11 +324,15 @@
                     line-height: 14px;
                     letter-spacing: 2px;
                     color: #FFFFFF;
-    
+
+                    &:hover {
+                        text-decoration: underline
+                    }
+
                 }
             }
         }
-    
+
         &--horizon-line {
             display: none;
             width: 327px;
@@ -328,39 +341,39 @@
             border: 1px solid #fff;
             opacity: 0.1;
             margin-top: 36px;
-    
-    
-    
+
+
+
         }
-    
+
         &--box-bottom {
             margin-top: 31px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-    
+
             &--left {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 gap: 40px;
-                
 
-                .footer--box-bottom--left--card--ul{
+
+                .footer--box-bottom--left--card--ul {
 
                     padding: 0;
                     margin-top: 0;
                     margin-bottom: 0;
                     margin-left: 110px;
                 }
-    
-    
+
+
                 &--card--ul--li {
                     width: 327px;
-                    
-                    
-    
+
+
+
                     &--link {
                         width: 327px;
                         font-family: 'Jost';
@@ -373,47 +386,47 @@
                         opacity: 0.5;
                         text-align: center;
                     }
-                
-                
+
+
                 }
-    
-                
-            
-    
+
+
+
+
             }
-    
-    
+
+
             &--right {
-    
+
                 &--ul {
                     display: flex;
 
-                   margin: 40px 0   64px 90px;
-                    
-                    &--li{
-    
-                        &--link{
-                            
-                           &--img{
-                            &:hover{
-                                border-radius: 50%;
-    
-                                background: #FFAD9B;
+                    margin: 40px 0 64px 90px;
+
+                    &--li {
+
+                        &--link {
+
+                            &--img {
+                                &:hover {
+                                    border-radius: 50%;
+
+                                    background: #FFAD9B;
+                                }
                             }
-                           }
-                           
-                           
+
+
                         }
                     }
                 }
-            
+
             }
-    
-    
+
+
         }
-    
+
     }
-    
+
 
 
 
@@ -424,19 +437,3 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-

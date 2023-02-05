@@ -339,7 +339,24 @@ template {
 
 @font-face {
   font-family: "Jost";
-  src: local("Trickster"), url("../fonts/Jost-Black.ttf") format("opentype") tech(color-COLRv1), url("") format("opentype"), url("") format("woff");
+  src: url("../fonts/") format("woff2"), url("../fonts/") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Regular.woff2") format("woff2"), url("../fonts/Jost-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Medium.woff2") format("woff2"), url("../fonts/Jost-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 /* GENERAL */
 * {
@@ -382,19 +399,6 @@ a {
 
 li {
   list-style-type: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .container {
@@ -780,6 +784,9 @@ li {
   letter-spacing: 2px;
   color: #FFFFFF;
 }
+.footer--box-top--ul--li--link:hover {
+  text-decoration: underline;
+}
 .footer--horizon-line {
   width: 1111px;
   height: 1px;
@@ -856,6 +863,9 @@ li {
     line-height: 14px;
     letter-spacing: 2px;
     color: #FFFFFF;
+  }
+  .footer--box-top--ul--li--link:hover {
+    text-decoration: underline;
   }
   .footer--horizon-line {
     width: 690px;
@@ -940,6 +950,9 @@ li {
     line-height: 14px;
     letter-spacing: 2px;
     color: #FFFFFF;
+  }
+  .footer--box-top--ul--li--link:hover {
+    text-decoration: underline;
   }
   .footer--horizon-line {
     display: none;
