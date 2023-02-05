@@ -1,0 +1,173 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 6666;
+    width: 1111px;
+    height: 100px;
+    background-color: $WHITE;
+    top: 0;
+
+
+    &--burger{
+        display: none;
+    }
+
+
+    &--menu {
+
+       
+        
+
+        &--ul {
+            display: flex;
+            gap: 30px;
+
+            &--li {
+                list-style-type: none;
+
+
+
+                &--link {
+                    text-decoration: none;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    color: #333136;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 6666;
+        max-width: 768px;
+        height: 100px;
+        background-color: $WHITE;
+        top: 0;
+        padding: 0 40px 0 ;
+
+        &--burger{
+            display: none;
+        }
+    
+        &--menu {
+            
+            margin-right: 40px;
+            &--ul {
+                display: flex;
+                gap: 20px;
+                
+    
+                &--li {
+                    list-style-type: none;
+    
+    
+    
+                    &--link {
+                        text-decoration: none;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        letter-spacing: 2px;
+                        color: #333136;
+    
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    
+    }
+
+
+    
+}
+// ==================================================     375 px      ================================
+
+@media screen and (max-width: 375px) {
+
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 6666;
+        max-width: 375px;
+        height: 100px;
+        background-color: $WHITE;
+        top: 0;
+        padding: 0 24px 0 ;
+
+        &--burger{
+            display: block;
+        }
+
+        
+    
+        &--menu {
+            display: none;
+    
+            &--ul {
+                display: none;
+                gap: 20px;
+                
+    
+                &--li {
+                    list-style-type: none;
+    
+    
+    
+                    &--link {
+                        text-decoration: none;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        letter-spacing: 2px;
+                        color: #333136;
+    
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    
+    }
+
+
+    
+}

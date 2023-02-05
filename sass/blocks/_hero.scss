@@ -1,0 +1,259 @@
+#hero {
+    background-color: $Peach;
+
+}
+
+.wrapper {
+    margin-top: 155px;
+    background-image: url(../../images/Oval.svg);
+    background-size: 640px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position: 480px;
+    display: flex;
+
+    &--left {
+        margin-top: 110px;
+        padding-left: 95px;
+
+        &--title {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+            color: $WHITE;
+        }
+
+        &--text {
+            margin-top: -10px;
+            width: 455px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+
+        &--btn {
+            margin-top: 40px;
+            display: inline-block;
+            width: 152px;
+            height: 56px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            text-align: center;
+            padding-top: 18px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #333136;
+
+            &:hover {
+                background: #FFAD9B;
+                color: #fff;
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    #hero {
+        background-color: white;
+
+    }
+
+    .wrapper {
+        background-color: $Peach;
+        overflow: hidden;
+        margin: 155px auto 0;
+        background-image: url(../../images/Oval.svg);
+        background-size: 640px;
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-position: 180px 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 689px;
+        height: 843px;
+
+        &--left {
+            margin-top: 110px;
+            padding-top: 60px;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &--title {
+                padding-top: 70px;
+                width: 573px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 48px;
+                color: $WHITE;
+                text-align: center;
+            }
+
+            &--text {
+                margin-top: -10px;
+                width: 455px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+            &--btn {
+
+                margin-top: 19px;
+                display: inline-block;
+                width: 152px;
+                height: 56px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                text-align: center;
+                padding-top: 18px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #333136;
+
+                &:hover {
+                    background: #FFAD9B;
+                    color: #fff;
+                }
+            }
+        }
+
+
+        .wrapper--rigth--img {
+            position: relative;
+            top: -70px;
+            left: 50px;
+        }
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+
+
+    #hero {
+        background-color: white;
+
+    }
+
+    .wrapper {
+        background-color: $Peach;
+        overflow: hidden;
+        margin: 96px auto 0;
+        background-image: url(../../images/mobile_page1.png);
+        background-size: 640px;
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-position: 0px 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        height: 843px;
+
+        &--left {
+            margin-top: 110px;
+            padding-top: 80px;
+            padding-left: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &--title {
+                width: 327px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 29px;
+                line-height: 34px;
+                text-align: center;
+                color: #FFFFFF;
+                color: $WHITE;
+
+            }
+
+            &--text {
+                width: 322px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 25px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+            &--btn {
+
+                margin-top: 19px;
+                display: inline-block;
+                width: 152px;
+                height: 56px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                text-align: center;
+                padding-top: 18px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #333136;
+
+                &:hover {
+                    background: #FFAD9B;
+                    color: #fff;
+                }
+            }
+        }
+
+
+        .wrapper--rigth--img {
+            position: relative;
+            top: -30px;
+            left: 25px;
+        }
+    }
+
+
+}

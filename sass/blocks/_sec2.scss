@@ -1,0 +1,163 @@
+
+
+.sec2--wrapper {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -250px;
+
+}
+
+.sec2--wrapper--card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+
+
+.sec2--wrapper--card--btn {
+    width: 152px;
+    height: 56px;
+    
+    margin-bottom: 160px;
+    text-align: center;
+    padding-top: 17px;
+    background-color: #E7816B;
+    
+    border-radius: 8px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #FFAD9B;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+
+
+
+    .sec2--wrapper {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -350px;
+    
+    }
+    
+    .sec2--wrapper--card {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    
+    
+    
+    
+    .sec2--wrapper--card--btn {
+        width: 152px;
+        height: 56px;
+        
+        margin-bottom: 160px;
+        text-align: center;
+        padding-top: 17px;
+        background-color: #E7816B;
+        
+        border-radius: 8px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffffff;
+    
+        &:hover {
+            background-color: #FFAD9B;
+            
+        }
+    }
+    
+
+}
+
+
+@media screen and (max-width: 375px){
+
+
+
+    .sec2--wrapper {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -350px;
+    
+    }
+    
+    .sec2--wrapper--card {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    
+    
+    
+    
+    .sec2--wrapper--card--btn {
+        width: 152px;
+        height: 56px;
+        
+        margin-bottom: 160px;
+        text-align: center;
+        padding-top: 17px;
+        background-color: #E7816B;
+        
+        border-radius: 8px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffffff;
+    
+        &:hover {
+            background-color: #FFAD9B;
+            
+        }
+    }
+    
+    
+}
